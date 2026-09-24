@@ -1,0 +1,118 @@
+@media (min-width: 768px) and (max-width: 1023px) {
+/* source max-width: 1180px */
+.ruitu-root .cred-stagebox{margin:0 50px}
+.ruitu-root .cred-arrow{width:40px;height:40px;margin-top:-20px}
+.ruitu-root #credPrev{left:-50px}
+.ruitu-root #credNext{right:-50px}
+/* source max-width: 1080px */
+.ruitu-root .case-grid{grid-template-columns:repeat(2,1fr)}
+/* source max-width: 980px */
+.ruitu-root .mv-grid{grid-template-columns:1fr}
+.ruitu-root .val-grid{grid-template-columns:repeat(2,1fr)}
+/* source max-width: 980px */
+.ruitu-root .ab-hero-grid{grid-template-columns:1fr;gap:30px}
+/* source max-width: 960px */
+.ruitu-root .hn-grid{grid-template-columns:repeat(2,1fr)}
+/* source max-width: 960px */
+.ruitu-root .help-shell{grid-template-columns:1fr;gap:24px}
+.ruitu-root .help-side{position:static;top:auto}
+.ruitu-root .help-side-cap{margin-left:0}
+.ruitu-root .help-nav{display:flex;gap:8px;flex-wrap:wrap}
+.ruitu-root .help-nav::before{display:none}
+.ruitu-root .help-nav a{padding:9px 16px;border:1px solid var(--line);border-radius:99px;background:#fff}
+.ruitu-root .help-nav a::before{display:none}
+.ruitu-root .help-nav a.on{border-color:var(--blue);background:var(--blue-soft)}
+.ruitu-root .help-nav a span{display:none}
+.ruitu-root .hb-block{scroll-margin-top:90px}
+.ruitu-root .hb-block + .hb-block{margin-top:52px;padding-top:52px}
+/* source max-width: 960px */
+.ruitu-root .news-grid{grid-template-columns:repeat(2,1fr)}
+/* source max-width: 960px */
+.ruitu-root .hero-grid{grid-template-columns:1fr !important;gap:40px}
+.ruitu-root .hero-video .vid-cover{height:240px}
+.ruitu-root .vid-rail{grid-template-columns:repeat(2,1fr);gap:10px}
+.ruitu-root .vid-cap{left:16px;right:16px;bottom:40px}
+.ruitu-root .vid-cap b{font-size:15px}
+/* source max-width: 960px */
+.ruitu-root .ft-grid.v2{grid-template-columns:1fr 1fr}
+.ruitu-root .ft-qr{justify-self:start}
+/* source max-width: 960px */
+.ruitu-root .mxa-grid{grid-template-columns:1fr;gap:16px}
+.ruitu-root .mxa-img{height:206px}
+/* source max-width: 960px */
+.ruitu-root .fx-shots{margin:0 auto}
+.ruitu-root .fx-phone{position:static;width:150px;margin:-46px auto 0;display:block}
+.ruitu-root .fx-wide{margin:26px 12px 0}
+/* source max-width: 960px */
+.ruitu-root h1{font-size:36px}
+.ruitu-root h1.pp{font-size:31px}
+.ruitu-root h2.sec{font-size:27px}
+.ruitu-root .hero{padding:120px 0 70px}
+.ruitu-root .pp-hero{padding:118px 0 60px}
+.ruitu-root .hero-grid, .ruitu-root .side-grid, .ruitu-root .about-grid, .ruitu-root .credit-grid, .ruitu-root .matrix-grid, .ruitu-root .pp-grid{grid-template-columns:1fr;gap:44px}
+.ruitu-root .hero-visual, .ruitu-root .pp-visual{height:auto;display:flex;gap:18px;justify-content:center;flex-wrap:wrap}
+.ruitu-root .hv-card{position:static}
+.ruitu-root .hv-c1, .ruitu-root .hv-c2{flex:1 1 300px;min-width:0}
+.ruitu-root .hero-visual>*{flex:1 1 300px;min-width:0}
+.ruitu-root .flow{grid-template-columns:repeat(2,1fr)}
+.ruitu-root .fl-node::after{display:none}
+.ruitu-root .idc-seal{display:none}
+.ruitu-root .ind-grid{grid-template-columns:repeat(2,1fr)}
+.ruitu-root .quote-grid, .ruitu-root .trust-grid, .ruitu-root .cap-grid{grid-template-columns:repeat(2,1fr)}
+.ruitu-root .trust-grid.six{grid-template-columns:repeat(3,1fr);gap:26px 14px}
+.ruitu-root .comp-grid, .ruitu-root .steps, .ruitu-root .x-grid{grid-template-columns:1fr}
+.ruitu-root .ft-grid{grid-template-columns:1fr 1fr}
+.ruitu-root .nav-links{display:none}
+.ruitu-root .burger{display:block}
+.ruitu-root .nav-cta .btn{display:none}
+.ruitu-root .nav-cta .btn.m-keep{display:inline-flex}
+.ruitu-root .anno-tag{left:16px}
+.ruitu-root .dl-box{padding:40px 24px}
+.ruitu-root .pp-dl-box{padding:40px 24px}
+.ruitu-root .dl-grid.three{grid-template-columns:1fr}
+.ruitu-root .featured-dual{grid-template-columns:1fr}
+.ruitu-root .f-row{grid-template-columns:1fr}
+.ruitu-root .ct-pane{padding:26px 20px 30px}
+.ruitu-root .ct-hero{padding:118px 0 26px}
+/* source max-width: 960px */
+.ruitu-root .cases-grid{grid-template-columns:repeat(2,1fr)}
+/* source max-width: 900px */
+.ruitu-root .ct-split{grid-template-columns:1fr}
+/* source max-width: 860px */
+.ruitu-root .pmx-card{grid-template-columns:1fr;gap:24px}
+/* source max-width: 860px */
+.ruitu-root .banner-track{height:250px}
+.ruitu-root .bn-txt{left:20px;max-width:80%}
+.ruitu-root .bn-txt h2{font-size:23px;margin:10px 0 8px}
+.ruitu-root .bn-txt p{display:none}
+.ruitu-root .bn-cta{font-size:12.5px;padding:8px 18px}
+.ruitu-root .bn-arr{display:none}
+}
+
+@media (max-width: 1023px) {
+.ruitu-root .nav-links.nav-open{
+  display: flex;
+  position: fixed;
+  top: 64px;
+  left: 0;
+  right: 0;
+  flex-direction: column;
+  align-items: flex-start;
+  background: rgba(255,255,255,.97);
+  padding: 20px 28px 26px;
+  border-bottom: 1px solid #E7E9EE;
+  backdrop-filter: blur(14px);
+  z-index: 99;
+  gap: 6px;
+  color: var(--ink-2);
+}
+.ruitu-root nav.over .nav-links.nav-open,
+.ruitu-root nav.over .nav-links.nav-open a,
+.ruitu-root nav.over .nav-links.nav-open .nav-parent,
+.ruitu-root nav.scrolled .nav-links.nav-open a,
+.ruitu-root nav.scrolled .nav-links.nav-open .nav-parent,
+.ruitu-root .nav-links.nav-open a,
+.ruitu-root .nav-links.nav-open .nav-parent{ color: var(--ink-2); }
+.ruitu-root .nav.over .burger span{ background: #fff; }
+.ruitu-root .nav.scrolled .burger span, .ruitu-root .nav.over.scrolled .burger span{ background: var(--ink); }
+}
